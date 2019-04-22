@@ -4,6 +4,7 @@ const path = require('path')
 const Router = require('koa-router')
 const bodyParser = require('koa-bodyparser')
 const static = require('koa-static')
+const jsonp = require('koa-jsonp')
 const session = require('koa-session-minimal')
 const MysqlSession = require('koa-mysql-session')
 const logger = require('./middleware/log')
@@ -39,6 +40,8 @@ app.use(static(path.join(__dirname, staticPath)))
 app.use(bodyParser())
 
 app.use(convert(logger()))
+
+app.use(jsonp())
 
 app.use(session({
     key: 'session-id',
