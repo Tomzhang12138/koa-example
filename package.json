@@ -10,8 +10,7 @@
   "author": "",
   "description": "",
   "dependencies": {
-    "koa": "^2.7.0",
-    "npm": "^6.9.0"
+    "koa": "^2.7.0"
   },
   "devDependencies": {
     "busboy": "^0.3.1",
