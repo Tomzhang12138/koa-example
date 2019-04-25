@@ -44,7 +44,7 @@ home.get('/upload', async (ctx) => {
 
 home.post('/upload', async (ctx) => {
     let result = { success: false }
-    let serverFilePath = path.join( __dirname, 'uploadFiles' )
+    let serverFilePath = path.join( __dirname, '../uploadFiles' )
     result = await uploadFile( ctx, {
       fileType: 'album', 
       filePath: serverFilePath

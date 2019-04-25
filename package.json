@@ -13,6 +13,7 @@
     "koa": "^2.7.0"
   },
   "devDependencies": {
+    "apollo-server-koa": "^2.4.8",
     "busboy": "^0.3.1",
     "graphql": "^14.2.1",
     "koa-bodyparser": "^4.2.1",

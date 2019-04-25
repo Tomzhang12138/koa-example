@@ -1,4 +1,5 @@
 const Koa = require('koa')
+const { ApolloServer, gql } = require('apollo-server-koa')
 const convert = require('koa-convert')
 const path = require('path')
 const Router = require('koa-router')
@@ -53,4 +54,81 @@ router.use('/todo', todo.routes(), todo.allowedMethods())
 
 app.use(router.routes()).use(router.allowedMethods())
 
-app.listen(3015)
+const users = [
+    {
+        name: 'zyw',
+        sex: '男',
+        intro: '博主，专注于Linux,Java,nodeJs,Web前端:Html5,JavaScript,CSS3',
+        skills: ['Linux','Java','nodeJs','前端'],
+    },
+    {
+        name: 'James',
+        sex: '男',
+        intro: 'zyw',
+        skills: ['Linux','Java','nodeJs','前端'],
+    }
+]
+
+const typeDefs = gql`
+    type User {
+        name: String!
+        sex: String
+        intro: String
+        skills: [String]!
+    }
+    input UserInput {
+        name String!
+        sex: String
+        intro: String
+        skills: [String]!
+    }
+    type Query {
+        user(id:Int!): User
+        users: [User]
+    }
+    type Mutation {
+        addUser(name: String!, sex: String, intro: String, skills: [String]!): User
+        addUserByInput(userInfo:UserInput!):User
+    }
+`
+
+const resolvers = {
+    Query: {
+        user: function({id}) {
+            return users[id]
+        },
+        users: function() {
+            return users
+        }
+    },
+    Mutation: {
+        addUser: function({name, sex, intro, skills}) {
+            let user = {
+                name,
+                sex,
+                intro,
+                skills
+            }
+            users.push(user)
+            return user
+        },
+        addUserByInput: function({userInfo}) {
+            let user = {
+                name: userInfo.name,
+                sex: userInfo.sex,
+                intro: userInfo.intro,
+                skills: userInfo.skills
+            }
+            users.push(user)
+            return user
+        }
+    }
+}
+
+const server = new ApolloServer({typeDefs, resolvers})
+
+server.applyMiddleware({ app })
+
+app.listen({port: 3015}, () => {
+    console.log(`🚀 Server ready at http://localhost:3015${server.graphqlPath}`)
+})
