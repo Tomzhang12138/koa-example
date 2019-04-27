@@ -77,7 +77,7 @@ const typeDefs = gql`
         skills: [String]!
     }
     input UserInput {
-        name String!
+        name: String!
         sex: String
         intro: String
         skills: [String]!
@@ -94,15 +94,15 @@ const typeDefs = gql`
 
 const resolvers = {
     Query: {
-        user: function({id}) {
-            return users[id]
+        user: function(args, {id}) {
+            return users[id || 0]
         },
         users: function() {
             return users
         }
     },
     Mutation: {
-        addUser: function({name, sex, intro, skills}) {
+        addUser: function(args, {name, sex, intro, skills}) {
             let user = {
                 name,
                 sex,
@@ -112,7 +112,7 @@ const resolvers = {
             users.push(user)
             return user
         },
-        addUserByInput: function({userInfo}) {
+        addUserByInput: function(args, {userInfo}) {
             let user = {
                 name: userInfo.name,
                 sex: userInfo.sex,
