@@ -6,11 +6,11 @@ const bodyParser = require('koa-bodyparser')
 const static = require('koa-static')
 const session = require('koa-session-minimal')
 const MysqlSession = require('koa-mysql-session')
+const { ApolloServer } = require('apollo-server-koa')
 
+const typeDefs = require('./graphql/typeDef')
+const resolvers = require('./graphql/resolver')
 const logger = require('./middleware/log')
-
-const home = require('./router/index')
-const todo = require('./router/todo')
 
 const app = new Koa()
 
@@ -47,12 +47,9 @@ app.use(session({
     cookie
 }))
 
-let router = new Router()
+const server = new ApolloServer({typeDefs, resolvers})
 
-router.use('/index', home.routes(), home.allowedMethods())
-router.use('/todo', todo.routes(), todo.allowedMethods())
-
-app.use(router.routes()).use(router.allowedMethods())
+server.applyMiddleware({app})
 
 app.listen({port: 3015}, () => {
     console.log(`🚀 Server ready at http://localhost:3015`)
