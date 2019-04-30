@@ -2,6 +2,7 @@ const Router = require('koa-router')
 const path = require('path')
 const { render } = require('../util/render')
 const { uploadFile } = require('../util/upload')
+const getSessionList = require('../model/index')
 
 let home = new Router()
 
@@ -50,6 +51,11 @@ home.post('/upload', async (ctx) => {
       filePath: serverFilePath
     })
     ctx.body = result
+})
+
+home.get('/session', async (ctx) => {
+  let list = await getSessionList()
+  ctx.body = list
 })
 
 module.exports = home

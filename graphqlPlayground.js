@@ -6,10 +6,11 @@ const bodyParser = require('koa-bodyparser')
 const static = require('koa-static')
 const session = require('koa-session-minimal')
 const MysqlSession = require('koa-mysql-session')
-const { ApolloServer } = require('apollo-server-koa')
+const { ApolloServer, gql } = require('apollo-server-koa')
 
-const typeDefs = require('./graphql/typeDef')
-const resolvers = require('./graphql/resolver')
+const typeDefs = gql(require('./graphql/typeDefs'))
+const resolvers = require('./graphql/resolvers')
+
 const logger = require('./middleware/log')
 
 const app = new Koa()
@@ -51,6 +52,6 @@ const server = new ApolloServer({typeDefs, resolvers})
 
 server.applyMiddleware({app})
 
-app.listen({port: 3015}, () => {
-    console.log(`🚀 Server ready at http://localhost:3015`)
+app.listen({port: 3016}, () => {
+    console.log(`🚀 Server ready at http://localhost:3016`)
 })
