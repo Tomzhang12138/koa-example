@@ -12,6 +12,15 @@ async function getUserById(id) {
     return result
 }
 
+async function getUserByName(name) {
+    let sql = `select count(*) as total from user where name='${name}'`
+    let result = await query(sql)
+    if (result[0].total > 0) {
+        return true
+    }
+    return false
+}
+
 async function removeUserById(id) {
     let sql = `delete from user where id=${id}`
     let result = await query(sql)
@@ -36,5 +45,6 @@ module.exports = {
     getUserList,
     getUserById,
     addUser,
-    removeUserById
+    removeUserById,
+    getUserByName
 }

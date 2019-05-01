@@ -8,6 +8,9 @@ const resolvers = {
         },
         users: async function() {
             let users = await getUserList()
+            users.forEach(user => {
+                user.skills = user.skills.split(',')
+            })
             return users
         }
     },

@@ -2,32 +2,37 @@ const Router = require('koa-router')
 const path = require('path')
 const { render } = require('../util/render')
 const { uploadFile } = require('../util/upload')
-const { getSessionList } = require('../model/index')
+const { getSessionList, getUserByName } = require('../model/index')
+const { TipConfig } = require('../config')
 
 let home = new Router()
 
-home.get('/', async (ctx) => {
+home.post('/login', async (ctx) => {
+  let username = ctx.request.body.name
+  let result = await getUserByName(username)
+  if (result) {
     ctx.cookies.set(
-        'cid', 
-        'hello world',
-        {
-          domain: 'localhost',  // 写cookie所在的域名
-          path: '/index',       // 写cookie所在的路径
-          maxAge: 10 * 60 * 1000, // cookie有效时长
-          expires: new Date('2017-02-15'),  // cookie失效时间
-          httpOnly: false,  // 是否只用于http请求中获取
-          overwrite: false  // 是否允许重写
-        }
-      )
-    ctx.body = await render('index.html')
-})
-
-home.get('/set', async (ctx) => {
-    ctx.session = {
-        user_id: Math.random().toString(36).substr(2),
-        count: 0
+      'cid', 
+      'hello world',
+      {
+        domain: 'localhost',  // 写cookie所在的域名
+        path: '/index',       // 写cookie所在的路径
+        maxAge: 10 * 60 * 1000, // cookie有效时长
+        expires: new Date('2017-02-15'),  // cookie失效时间
+        httpOnly: false,  // 是否只用于http请求中获取
+        overwrite: false  // 是否允许重写
       }
-      ctx.body = ctx.session
+    )
+    ctx.session = {
+      name: username,
+      token: Math.random().toString(36).substr(2),
+      count: 0
+    }
+    ctx.body = ctx.session
+    return
+  }
+  ctx.response.status = 401
+  ctx.body = TipConfig['api10001']
 })
 
 home.get('/get', async (ctx) => {
