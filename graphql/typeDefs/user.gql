@@ -17,4 +17,5 @@ type Query {
 type Mutation {
     addUser(name: String!, sex: String, intro: String, skills: [String]!): User
     addUserByInput(userInfo:UserInput!):User
+    removeUser(id:Int!): User
 }

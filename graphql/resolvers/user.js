@@ -1,48 +1,53 @@
-const users = [
-    {
-        name: 'zyw',
-        sex: '男',
-        intro: '博主，专注于Linux,Java,nodeJs,Web前端:Html5,JavaScript,CSS3',
-        skills: ['Linux','Java','nodeJs','前端'],
-    },
-    {
-        name: 'James',
-        sex: '男',
-        intro: 'zyw',
-        skills: ['Linux','Java','nodeJs','前端'],
-    }
-]
+const { addUser, getUserList, getUserById, removeUserById } = require('../../model/index')
 
 
 const resolvers = {
     Query: {
-        user: function(args, {id}) {
-            return users[id || 0]
+        user: async function(args, {id}) {
+            return await getUserById(id)
         },
-        users: function() {
+        users: async function() {
+            let users = await getUserList()
             return users
         }
     },
     Mutation: {
-        addUser: function(args, {name, sex, intro, skills}) {
+        addUser: async function(args, {name, sex, intro, skills}) {
             let user = {
                 name,
                 sex,
                 intro,
                 skills
             }
-            users.push(user)
-            return user
+            let result = await addUser(user)
+            if (result.affectedRows > 0) {
+                return user
+            }
+            console.log(result.message)
+            return {}
         },
-        addUserByInput: function(args, {userInfo}) {
+        addUserByInput: async function(args, {userInfo}) {
             let user = {
                 name: userInfo.name,
                 sex: userInfo.sex,
                 intro: userInfo.intro,
                 skills: userInfo.skills
             }
-            users.push(user)
-            return user
+            let result = await addUser(user)
+            if (result.affectedRows > 0) {
+                return user
+            }
+            console.log(result.message)
+            return {}
+        },
+        removeUser: async function(args, {id}) {
+            let result = await removeUserById(id)
+            let result = await addUser(user)
+            if (result.affectedRows > 0) {
+                return user
+            }
+            console.log(result.message)
+            return {}
         }
     }
 }

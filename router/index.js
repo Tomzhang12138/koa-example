@@ -2,7 +2,7 @@ const Router = require('koa-router')
 const path = require('path')
 const { render } = require('../util/render')
 const { uploadFile } = require('../util/upload')
-const getSessionList = require('../model/index')
+const { getSessionList } = require('../model/index')
 
 let home = new Router()
 
