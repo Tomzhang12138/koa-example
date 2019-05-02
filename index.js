@@ -13,8 +13,9 @@ const typeDefs = gql(require('./graphql/typeDefs'))
 const resolvers = require('./graphql/resolvers')
 
 const logger = require('./middleware/log')
+const valid = require('./middleware/valid')
 
-const { MysqlConfig, CookieConfig, port } = require('./config')
+const { MysqlConfig, CookieConfig, port, corsHost } = require('./config')
 
 const home = require('./router/index')
 const todo = require('./router/todo')
@@ -30,7 +31,10 @@ const store = new MysqlSession({
     host: MysqlConfig.host
 })
 
-app.use(cors())
+app.use(cors({
+    origin: corsHost,
+    credentials: true
+}))
 
 app.use(static(path.join(__dirname, staticPath)))
 
@@ -41,8 +45,10 @@ app.use(convert(logger()))
 app.use(session({
     key: 'session-id',
     store,
-    CookieConfig
+    cookie: CookieConfig
 }))
+
+app.use(convert(valid()))
 
 let router = new Router()
 

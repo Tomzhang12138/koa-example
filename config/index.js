@@ -1,10 +1,13 @@
 const { config: MysqlConfig } = require('./mysql')
 const { config: CookieConfig } = require('./cookie')
 const { config: TipConfig } = require('./tip')
+const { config: NoValidConfig } = require('./noValid')
 
 module.exports = {
     MysqlConfig,
     CookieConfig,
     port: 3016,
-    TipConfig
+    corsHost: 'http://localhost:3015',
+    TipConfig,
+    NoValidConfig
 }
