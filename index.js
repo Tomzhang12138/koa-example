@@ -32,7 +32,12 @@ const store = new MysqlSession({
 })
 
 app.use(cors({
-    origin: corsHost,
+    origin: (ctx) => {
+        if (corsHost.indexOf(ctx.request.header.origin) !== -1) {
+            return `${ctx.request.header.origin}`
+        }
+        return false
+    },
     credentials: true
 }))
 

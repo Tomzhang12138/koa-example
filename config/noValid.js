@@ -1,7 +1,8 @@
 module.exports = {
     config: {
         api: [
-            '/index/login'
+            '/index/login',
+            '/graphql'
         ]
     }
 }

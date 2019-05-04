@@ -7,7 +7,7 @@ module.exports = {
     MysqlConfig,
     CookieConfig,
     port: 3016,
-    corsHost: 'http://localhost:3015',
+    corsHost: ['http://localhost:3012', 'http://localhost:3015'],
     TipConfig,
     NoValidConfig
 }

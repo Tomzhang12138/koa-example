@@ -9,7 +9,10 @@ async function getSessionList() {
 async function getUserById(id) {
     let sql = `select * from user where id=${id}`
     let result = await query(sql)
-    return result
+    if (result.length > 0) {
+        return result[0]
+    }
+    return []
 }
 
 async function getUserByName(name) {
