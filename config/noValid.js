@@ -1,8 +1,9 @@
 module.exports = {
     config: {
         api: [
-            '/index/login',
-            '/graphql'
+            '^\/index/login$',
+            '^\/graphql$',
+            '\/music\/*'
         ]
     }
 }

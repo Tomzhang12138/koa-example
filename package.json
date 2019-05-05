@@ -10,7 +10,9 @@
   "author": "",
   "description": "",
   "dependencies": {
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "pac-proxy-agent": "^3.0.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "apollo-server-koa": "^2.4.8",

@@ -20,6 +20,7 @@ const { MysqlConfig, CookieConfig, port, corsHost } = require('./config')
 
 const home = require('./router/index')
 const todo = require('./router/todo')
+const music = require('./router/music')
 
 const app = new Koa()
 
@@ -62,6 +63,7 @@ let router = new Router()
 
 router.use('/index', home.routes(), home.allowedMethods())
 router.use('/todo', todo.routes(), todo.allowedMethods())
+router.use('/music', music.routes(), music.allowedMethods())
 
 app.use(router.routes()).use(router.allowedMethods())
 
