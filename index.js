@@ -7,7 +7,16 @@ const static = require('koa-static')
 const jsonp = require('koa-jsonp')
 const session = require('koa-session-minimal')
 const MysqlSession = require('koa-mysql-session')
+const cors = require('koa2-cors')
+const { ApolloServer, gql } = require('apollo-server-koa')
+
+const typeDefs = gql(require('./graphql/typeDefs'))
+const resolvers = require('./graphql/resolvers')
+
 const logger = require('./middleware/log')
+const valid = require('./middleware/valid')
+
+const { MysqlConfig, CookieConfig, port, corsHost } = require('./config')
 
 const home = require('./router/index')
 const todo = require('./router/todo')
@@ -17,23 +26,21 @@ const app = new Koa()
 const staticPath = './static'
 
 const store = new MysqlSession({
-    user: 'root',
-    password: 'zyw098765.',
-    database: 'koa_demo',
-    host: '127.0.0.1'
+    user: MysqlConfig.user,
+    password: MysqlConfig.password,
+    database: MysqlConfig.database,
+    host: MysqlConfig.host
 })
 
-let cookie = {
-    maxAge: '', // cookie有效时长
-    expires: '',  // cookie失效时间
-    path: '', // 写cookie所在的路径
-    domain: '', // 写cookie所在的域名
-    httpOnly: '', // 是否只用于http请求中获取
-    overwrite: '',  // 是否允许重写
-    secure: '',
-    sameSite: '',
-    signed: ''
-}
+app.use(cors({
+    origin: (ctx) => {
+        if (corsHost.indexOf(ctx.request.header.origin) !== -1) {
+            return `${ctx.request.header.origin}`
+        }
+        return false
+    },
+    credentials: true
+}))
 
 app.use(static(path.join(__dirname, staticPath)))
 
@@ -46,8 +53,10 @@ app.use(jsonp())
 app.use(session({
     key: 'session-id',
     store,
-    cookie
+    cookie: CookieConfig
 }))
+
+app.use(convert(valid()))
 
 let router = new Router()
 
@@ -56,4 +65,10 @@ router.use('/todo', todo.routes(), todo.allowedMethods())
 
 app.use(router.routes()).use(router.allowedMethods())
 
-app.listen(3015)
+const server = new ApolloServer({typeDefs, resolvers})
+
+server.applyMiddleware({app})
+
+app.listen({port}, () => {
+    console.log(`🚀 Server ready at http://localhost:${port}`)
+})

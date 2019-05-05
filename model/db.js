@@ -1,20 +1,22 @@
 const mysql = require('mysql')
+const { MysqlConfig } = require('../config')
 
 const pool = mysql.createPool({
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'zyw098765.',
-    database: 'koa_demo'
+    host: MysqlConfig.host,
+    port: MysqlConfig.port,
+    user: MysqlConfig.user,
+    password: MysqlConfig.password,
+    database: MysqlConfig.database
 })
 
 let query = function (sql, values) {
     return new Promise((resolve, reject) => {
-        pool.getConnection((err, connection) => {
+        pool.getConnection(function(err, connection) {
             if (err) {
                 reject(err)
             } else {
                 connection.query(sql, values, (err, rows) => {
-                    if (err) {
+                    if(err) {
                         reject(err)
                     } else {
                         resolve(rows)
@@ -22,10 +24,7 @@ let query = function (sql, values) {
                     connection.release()
                 })
             }
-        }) 
+        })
     })
 }
-
-module.exports = {
-    query
-}
+module.exports = query

@@ -10,17 +10,19 @@
   "author": "",
   "description": "",
   "dependencies": {
-    "koa": "^2.7.0",
-    "npm": "^6.9.0"
+    "koa": "^2.7.0"
   },
   "devDependencies": {
+    "apollo-server-koa": "^2.4.8",
     "busboy": "^0.3.1",
+    "graphql": "^14.2.1",
     "koa-bodyparser": "^4.2.1",
     "koa-jsonp": "^2.0.2",
     "koa-mysql-session": "^0.0.2",
     "koa-router": "^7.4.0",
     "koa-session-minimal": "^3.0.4",
     "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
     "mysql": "^2.17.1"
   }
 }
