@@ -10,5 +10,5 @@ module.exports = {
     corsHost: ['http://localhost:3012', 'http://localhost:3015'],
     TipConfig,
     NoValidConfig,
-    searchImgUrl: 'https://image.so.com/i'
+    searchImgUrl: 'https://image.baidu.com/search/acjson'
 }
