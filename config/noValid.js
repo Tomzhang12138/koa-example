@@ -3,7 +3,8 @@ module.exports = {
         api: [
             '^\/index/login$',
             '^\/graphql$',
-            '\/music\/*'
+            '\/music\/*',
+            '^\/index/searchImg'
         ]
     }
 }

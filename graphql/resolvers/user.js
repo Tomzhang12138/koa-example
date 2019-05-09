@@ -4,7 +4,9 @@ const { addUser, getUserList, getUserById, removeUserById } = require('../../mod
 const resolvers = {
     Query: {
         user: async function(args, {id}) {
-            return await getUserById(id)
+            let user = await getUserById(id)
+            user.skills = user.skills.split(',')
+            return user
         },
         users: async function() {
             let users = await getUserList()

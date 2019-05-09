@@ -7,6 +7,10 @@ module.exports = {
         'api10002': {
             code: 'api10002',
             message: 'session invalid'
+        },
+        'api10003': {
+            code: 'api10003',
+            message: 'search img fail'
         }
     }
 }

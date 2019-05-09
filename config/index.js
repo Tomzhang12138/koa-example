@@ -9,5 +9,6 @@ module.exports = {
     port: 3016,
     corsHost: ['http://localhost:3012', 'http://localhost:3015'],
     TipConfig,
-    NoValidConfig
+    NoValidConfig,
+    searchImgUrl: 'https://image.so.com/i'
 }
