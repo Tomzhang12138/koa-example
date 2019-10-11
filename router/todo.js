@@ -2,7 +2,10 @@ const Router = require('koa-router')
 const { render } = require('../util/render')
 
 let todo = new Router()
-todo.get('/', async (ctx) => {
+
+const routerPath = '/todo/'
+
+todo.get(`${routerPath}`, async (ctx) => {
     ctx.body = await render('todo.html')
 })
 

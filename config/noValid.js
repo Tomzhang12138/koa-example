@@ -1,10 +1,10 @@
 module.exports = {
     config: {
         api: [
-            '^\/index/login$',
+            '^\/home/login$',
             '^\/graphql$',
-            '\/music\/*',
-            '^\/index/searchImg'
+            '^\/home/searchImg',
+            '^\/todo$'
         ]
     }
 }

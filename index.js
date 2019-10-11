@@ -1,13 +1,14 @@
 const Koa = require('koa')
 const convert = require('koa-convert')
 const path = require('path')
-const Router = require('koa-router')
 const bodyParser = require('koa-bodyparser')
 const static = require('koa-static')
 const jsonp = require('koa-jsonp')
 const session = require('koa-session-minimal')
 const MysqlSession = require('koa-mysql-session')
 const cors = require('koa2-cors')
+const middleCompose = require('koa-compose')
+const compress = require('koa-compress')
 const { ApolloServer, gql } = require('apollo-server-koa')
 
 const typeDefs = gql(require('./graphql/typeDefs'))
@@ -18,9 +19,7 @@ const valid = require('./middleware/valid')
 
 const { MysqlConfig, CookieConfig, port, corsHost } = require('./config')
 
-const home = require('./router/index')
-const todo = require('./router/todo')
-const music = require('./router/music')
+const routeConfig = require('./router')
 
 const app = new Koa()
 
@@ -33,39 +32,32 @@ const store = new MysqlSession({
     host: MysqlConfig.host
 })
 
-app.use(cors({
-    origin: (ctx) => {
-        if (corsHost.indexOf(ctx.request.header.origin) !== -1) {
-            return `${ctx.request.header.origin}`
-        }
-        return false
-    },
-    credentials: true
-}))
+let middleware = middleCompose([
+    cors({
+        origin: (ctx) => {
+            if (corsHost.indexOf(ctx.request.header.origin) !== -1) {
+                return `${ctx.request.header.origin}`
+            }
+            return false
+        },
+        credentials: true
+    }),
+    static(path.join(__dirname, staticPath)),
+    bodyParser(),
+    compress(),
+    convert(logger()),
+    jsonp(),
+    session({
+        key: 'session-id',
+        store,
+        cookie: CookieConfig
+    }),
+    convert(valid())
+])
 
-app.use(static(path.join(__dirname, staticPath)))
+app.use(middleware)
 
-app.use(bodyParser())
-
-app.use(convert(logger()))
-
-app.use(jsonp())
-
-app.use(session({
-    key: 'session-id',
-    store,
-    cookie: CookieConfig
-}))
-
-app.use(convert(valid()))
-
-let router = new Router()
-
-router.use('/index', home.routes(), home.allowedMethods())
-router.use('/todo', todo.routes(), todo.allowedMethods())
-router.use('/music', music.routes(), music.allowedMethods())
-
-app.use(router.routes()).use(router.allowedMethods())
+app.use(routeConfig())
 
 const server = new ApolloServer({typeDefs, resolvers})
 
