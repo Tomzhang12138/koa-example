@@ -10,5 +10,6 @@ module.exports = {
     corsHost: ['http://localhost:3012', 'http://localhost:3015'],
     TipConfig,
     NoValidConfig,
-    searchImgUrl: 'https://image.baidu.com/search/acjson'
+    searchImgUrl: 'https://image.baidu.com/search/acjson',
+    jueQueryUrl: 'https://web-api.juejin.im/query'
 }

@@ -4,7 +4,8 @@ module.exports = {
             '^\/home/login$',
             '^\/graphql$',
             '^\/home/searchImg',
-            '^\/todo$'
+            '^\/todo$',
+            '^\/jue'
         ]
     }
 }
