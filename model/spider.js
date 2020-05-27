@@ -17,17 +17,23 @@ module.exports = {
                         status: 404,
                         data: TipConfig['api10003']
                     })
-                } else {
-                    let imgList = []
-                    let data = JSON.parse(res.body).data
-                    data.forEach(item => {
-                        imgList.push({
-                            name: item.fromPageTitleEnc,
-                            src: item.middleURL
-                        })
-                    })
-                    resolve(imgList)
                     done()
+                } else {
+                    try {
+                        let imgList = []
+                        let data = res.body ? JSON.parse(res.body).data : []
+                        data.forEach(item => {
+                            imgList.push({
+                                name: item.fromPageTitleEnc,
+                                src: item.middleURL
+                            })
+                        })
+                        resolve(imgList)
+                        done()
+                    } catch (err) {
+                        resolve([])
+                        done()
+                    }
                 }
             })
         })

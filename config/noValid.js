@@ -4,7 +4,7 @@ module.exports = {
             '^\/index/login$',
             '^\/graphql$',
             '\/music\/*',
-            '^\/index/searchImg'
+            '^\/img/search'
         ]
     }
 }

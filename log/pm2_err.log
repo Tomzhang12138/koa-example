@@ -1,0 +1,1170 @@
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+{ Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1104:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15)
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true }
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1056:14)
+    --------------------
+    at Protocol._enqueue (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/usr/local/project/koa-example/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/usr/local/project/koa-example/node_modules/mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/usr/local/project/koa-example/node_modules/mysql/lib/Pool.js:202:8)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/co-mysql/index.js:10:10)
+    at next (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:90:21)
+    at MysqlStore.<anonymous> (/usr/local/project/koa-example/node_modules/koa-mysql-session/node_modules/co/index.js:45:5)
+    at new MysqlStore (/usr/local/project/koa-example/node_modules/koa-mysql-session/index.js:50:8)
+    at Object.<anonymous> (/usr/local/project/koa-example/index.js:30:15) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}

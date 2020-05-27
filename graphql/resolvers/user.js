@@ -28,7 +28,6 @@ const resolvers = {
             if (result.affectedRows > 0) {
                 return user
             }
-            console.log(result.message)
             return {}
         },
         addUserByInput: async function(args, {userInfo}) {
@@ -42,16 +41,13 @@ const resolvers = {
             if (result.affectedRows > 0) {
                 return user
             }
-            console.log(result.message)
             return {}
         },
         removeUser: async function(args, {id}) {
             let result = await removeUserById(id)
-            let result = await addUser(user)
             if (result.affectedRows > 0) {
                 return user
             }
-            console.log(result.message)
             return {}
         }
     }

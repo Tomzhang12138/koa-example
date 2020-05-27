@@ -1,0 +1,28 @@
+{
+    "apps": {
+        "name": "koa-example",
+        "script": "./index.js",
+        "min_uptime": "60s",
+        "max_restarts": 30,
+        "exec_mode": "fork_mode",
+        "error_file": "./log/pm2_err.log",
+        "out_file": "./log/pm2_out.log",
+        "pid_file": "./log/pm2_test.pid",
+        "watch": [
+            "config",
+            "graphql",
+            "middleware",
+            "model",
+            "musicApi",
+            "router",
+            "static",
+            "util",
+            "view",
+            "index.js"
+        ],
+        "ignore_watch": ["node_modules", "uploadFiles"],
+        "env": {
+            "NODE_ENV": "development"
+        }
+    }
+}

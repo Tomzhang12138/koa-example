@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -harmony index.js"
+    "start": "pm2 start pm2.json"
   },
   "author": "",
   "description": "",
@@ -13,6 +13,7 @@
     "crawler": "^1.2.1",
     "koa": "^2.7.0",
     "pac-proxy-agent": "^3.0.0",
+    "pm2": "^4.2.1",
     "request": "^2.88.0"
   },
   "devDependencies": {
