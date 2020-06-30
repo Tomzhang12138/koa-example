@@ -1,0 +1,900 @@
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+/usr/local/project/koa-example/util/dubbo.js:1
+onst { Dubbo, java, setting } = require('dubbo2.js')
+     ^
+
+SyntaxError: Unexpected token {
+    at Module._compile (internal/modules/cjs/loader.js:872:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)
+    at Module.load (internal/modules/cjs/loader.js:790:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:703:12)
+    at Module.require (internal/modules/cjs/loader.js:830:19)
+    at Module.Hook._require.Module.require (/usr/local/project/koa-example/node_modules/require-in-the-middle/index.js:70:39)
+    at require (internal/modules/cjs/helpers.js:68:18)
+    at Object.<anonymous> (/usr/local/project/koa-example/router/home.js:8:15)
+    at Module._compile (internal/modules/cjs/loader.js:936:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:947:10)

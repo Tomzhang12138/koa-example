@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "crawler": "^1.2.1",
+    "dubbo2.js": "^2.3.9",
     "koa": "^2.7.0",
     "pac-proxy-agent": "^3.0.0",
     "pm2": "^4.4.0",
