@@ -2,7 +2,7 @@ module.exports = {
     config: {
         api: [
             '^\/home/login$',
-            '^\/home/dubbo$',
+            '^\/home/dubbo',
             '^\/graphql$',
             '^\/img/search',
             '^\/home/searchImg',

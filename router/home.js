@@ -5,7 +5,8 @@ const { uploadFile } = require('../util/upload')
 const { getSessionList, getUserByName } = require('../model/index')
 const { searchImg } = require('../model/spider')
 const { TipConfig } = require('../config')
-const dubbo = require('../util/dubbo')
+const testDubbo = require('../service/test')
+const userDubbo = require('../service/user')
 
 let home = new Router()
 
@@ -57,8 +58,13 @@ home.get(`${routerPath}searchImg`, async (ctx) => {
   }
 })
 
-home.get(`${routerPath}dubbo`, async (ctx) => {
-  const res = await dubbo.service.dubboService.Hello('zyw')
+home.get(`${routerPath}dubbo/test`, async (ctx) => {
+  const res = await testDubbo.service.dubboService.Hello('zyw')
+  ctx.body = res
+})
+
+home.get(`${routerPath}dubbo/user`, async (ctx) => {
+  const res = await userDubbo.service.dubboService.SearchUser('zyw')
   ctx.body = res
 })
 

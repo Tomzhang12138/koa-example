@@ -1,83 +1,67 @@
 🚀 Server ready at http://localhost:3016
 🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-GET localhost:3016/
-GET localhost:3016/favicon.ico
-GET localhost:3016/
-GET localhost:3016/favicon.ico
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-GET localhost:3016/
-GET localhost:3016/favicon.ico
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-🚀 Server ready at http://localhost:3016
-GET localhost:3016/home/login
-GET localhost:3016/favicon.ico
-GET localhost:3016/favicon.ico
 GET localhost:3016/home/dubbo
 GET localhost:3016/favicon.ico
 🚀 Server ready at http://localhost:3016
-GET localhost:3016/home/dubbo
+🚀 Server ready at http://localhost:3016
+GET localhost:3016/home/test
+GET localhost:3016/favicon.ico
+🚀 Server ready at http://localhost:3016
+GET localhost:3016/home/test
+GET localhost:3016/favicon.ico
+GET localhost:3016/home/dubbo/test
+GET localhost:3016/favicon.ico
+GET localhost:3016/home/dubbo/user
+GET localhost:3016/favicon.ico
+🚀 Server ready at http://localhost:3016
+GET localhost:3016/home/dubbo/user
+GET localhost:3016/favicon.ico
+🚀 Server ready at http://localhost:3016
+GET localhost:3016/home/dubbo/user
+{
+  res: null,
+  err: DubboDecodeError: uuid:  invoke com.example.demo.dubbo.UserProviderService#SearchUser was error, S�Failed to send response: Response [id=1, version=2.0.2, status=20, event=false, error=null, result=RpcResult [result=User(id=28, username=zyw, password=zyw123, user_sex=male, nick_name=tom), exception=null]], cause: java.lang.IllegalStateException: Serialized class com.example.demo.model.User must implement java.io.Serializable
+  java.lang.IllegalStateException: Serialized class com.example.demo.model.User must implement java.io.Serializable
+  	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getDefaultSerializer(SerializerFactory.java:395)
+  	at com.alibaba.com.caucho.hessian.io.SerializerFactory.getSerializer(SerializerFactory.java:369)
+  	at com.alibaba.com.caucho.hessian.io.Hessian2Output.writeObject(Hessian2Output.java:389)
+  	at com.alibaba.dubbo.common.serialize.hessian2.Hessian2ObjectOutput.writeObject(Hessian2ObjectOutput.java:88)
+  	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCodec.encodeResponseData(DubboCodec.java:200)
+  	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encodeResponse(ExchangeCodec.java:278)
+  	at com.alibaba.dubbo.remoting.exchange.codec.ExchangeCodec.encode(ExchangeCodec.java:74)
+  	at com.alibaba.dubbo.rpc.protocol.dubbo.DubboCountCodec.encode(DubboCountCodec.java:38)
+  	at com.alibaba.dubbo.remoting.transport.netty.NettyCodecAdapter$InternalEncoder.encode(NettyCodecAdapter.java:80)
+  	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:66)
+  	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+  	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:776)
+  	at org.jboss.netty.channel.SimpleChannelHandler.writeRequested(SimpleChannelHandler.java:304)
+  	at com.alibaba.dubbo.remoting.transport.netty.NettyHandler.writeRequested(NettyHandler.java:98)
+  	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:266)
+  	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+  	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+  	at org.jboss.netty.channel.Channels.write(Channels.java:611)
+  	at org.jboss.netty.channel.Channels.write(Channels.java:578)
+  	at org.jboss.netty.channel.AbstractChannel.write(AbstractChannel.java:251)
+  	at com.alibaba.dubbo.remoting.transport.netty.NettyChannel.send(NettyChannel.java:100)
+  	at com.alibaba.dubbo.remoting.transport.AbstractPeer.send(AbstractPeer.java:53)
+  	at com.alibaba.dubbo.remoting.exchange.support.header.HeaderExchangeHandler.received(HeaderExchangeHandler.java:174)
+  	at com.alibaba.dubbo.remoting.transport.DecodeHandler.received(DecodeHandler.java:51)
+  	at com.alibaba.dubbo.remoting.transport.dispatcher.ChannelEventRunnable.run(ChannelEventRunnable.java:57)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+  	at java.base/java.lang.Thread.run(Thread.java:832)
+  
+      at Object.decode (/usr/local/project/koa-example/node_modules/dubbo2.js/es7/decode.js:69:18)
+      at DecodeBuffer.SocketWorker._onSubscribeDecodeBuff [as _subscriber] (/usr/local/project/koa-example/node_modules/dubbo2.js/es7/socket-worker.js:101:35)
+      at DecodeBuffer.receive (/usr/local/project/koa-example/node_modules/dubbo2.js/es7/decode-buffer.js:111:22)
+      at SocketWorker._onData (/usr/local/project/koa-example/node_modules/dubbo2.js/es7/socket-worker.js:67:30)
+      at Socket.emit (events.js:209:13)
+      at addChunk (_stream_readable.js:305:12)
+      at readableAddChunk (_stream_readable.js:286:11)
+      at Socket.Readable.push (_stream_readable.js:220:10)
+      at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+}
+GET localhost:3016/favicon.ico
+🚀 Server ready at http://localhost:3016
+GET localhost:3016/home/dubbo/user
 GET localhost:3016/favicon.ico
